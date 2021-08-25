@@ -5,6 +5,7 @@
   "author": "Shahfiq Shah <48479663+Gr3gg0r@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1"
   }
 }
