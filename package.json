@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Shahfiq Shah <48479663+Gr3gg0r@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5",
