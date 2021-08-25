@@ -34,8 +34,8 @@ app.use(cors());
 app.use(express.static("public"));
 app.use(express.static("assets"));
 
-app.get("/", (req, res) => res.sendFile("public/"));
-app.get("/assets", (req, res) => res.sendFile("assets/"));
+app.get("/", (req, res) => res.sendFile(__dirname + "/public/"));
+app.get("/assets", (req, res) => res.sendFile(__dirname + "/assets/"));
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(spec));
 
 
