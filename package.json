@@ -1,0 +1,10 @@
+{
+  "name": "hauz-swapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Shahfiq Shah <48479663+Gr3gg0r@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
