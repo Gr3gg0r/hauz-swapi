@@ -10,11 +10,11 @@ Two API Endpoints
 
 ### Final Result
 
-```
+
 Solution already deploy to cloud with to this site.[Hauz Swapi](https://hauz.shahfiq.xyz/). 
 
 The solution already equip with Swagger for api documentation . Thus, postman file will not be included in this repository. 
-
+```
 !Important notes , please ensure the Swagger select a correct host before testing the endpoint. 
 ```
 
